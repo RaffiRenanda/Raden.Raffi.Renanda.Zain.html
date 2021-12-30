@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>VIEW</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Hasil Pembelian</div>
+        <hr>
+        <p>Transaksi Yang Dilakukan</p>
+        Nama Customer : <l th:text="${NamaCus}"></l> <br>
+    Tanggal Transaksi : <l th:text="${TanggalTrans}"></l> <br><br>Result :<br>
+    ============================<br>
+    Nama Buah : <l th:text="${NamaBuah}"></l> <br>
+    ============================<br>
+    Harga/Kg : Rp.<l th:text="${HargaKg}"></l> <br> 
+    ============================<br>
+    Jumlah Dibeli : <l th:text="${JumlahBl}"></l> Kg<br>
+    ============================<br>
+    Total Harga : Rp.<l th:text="${TotalHargaAwl}"></l><br>
+    ============================<br>
+    Mendapat Diskon : <l th:text="${PersenDiskon}"></l>%<br>
+    ============================<br>
+    Total Diskon : Rp.<l th:text="${TotalDiskon}"></l><br>
+    ============================<br>
+    Total Bayar Akhir : Rp.<l th:text="${TotalBayarAhr}"></l><br>
+    ============================<br>
+    Uang Custommer : Rp.<l th:text="${UangCustommer}"></l><br>
+    ============================<br>
+    Uang Kembalian : Rp.<l th:text="${UangKembalian}"></l><br><br>
+
+    ***Selamat Berbelanja Kembali <l th:text="${NamaCus}"></l>*** <br>
+    ********Toko Buah Sakinah Mawadah******** <br>
+    ***************Terimakasih***************
+    </body>
+</html>
